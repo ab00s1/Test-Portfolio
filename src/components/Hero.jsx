@@ -29,7 +29,7 @@ export default function Hero() {
           <div className="relative">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-cyan-400 shadow-xl shadow-cyan-500/20">
               <img 
-                src="/src/assets/profile.jpg" 
+                src="/profile.jpg" 
                 alt="Abhinav Singh" 
                 className="w-full h-full object-cover"
               />
