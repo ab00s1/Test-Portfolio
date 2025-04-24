@@ -33,7 +33,7 @@ export default function Navbar() {
         {isOpen && (
           <ul className="absolute top-full left-0 w-full bg-slate-900 md:hidden flex flex-col space-y-4 py-4 px-6">
             {navItems.map((item) => (
-              <li key={item.name}>
+              <li key={item.name} onClick={() => setIsOpen(!isOpen)}>
                 <a
                   href={item.href}
                   className="text-slate-300 hover:text-cyan-400 transition-colors duration-300"
