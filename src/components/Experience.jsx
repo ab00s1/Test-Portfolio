@@ -2,7 +2,7 @@ export default function Experience() {
   const experiences = [
     {
       title: "EY Global Delivery Services & AICTE Internship",
-      company: "EY Global Delivery Services",
+      company: "Edunet Foundation",
       period: "February 10, 2025 - March 21, 2025",
       location: "India",
       description: [

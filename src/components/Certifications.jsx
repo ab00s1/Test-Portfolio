@@ -4,29 +4,33 @@ export default function Certifications() {
       name: "Building Modern Web Applications with MERN Stack",
       issuer: "EY Global Delivery Services & AICTE",
       date: "March 2025",
-      credential: "CERT-MERN-2025",
-      image: "https://placehold.co/200x100/2563eb/ffffff?text=EY"
+      credential: "AICTENG25_44991",
+      image: "https://placehold.co/200x100/2563eb/ffffff?text=EY",
+      url: "https://nextgen.edunetworld.com/verify-tn-certificate/AICTENG25_44991"
     },
     {
       name: "Start the UX Design Process: Empathize, Define, and Ideate",
       issuer: "Google",
       date: "February 2025",
-      credential: "UX-DESIGN-2025",
-      image: "https://placehold.co/200x100/4285F4/ffffff?text=Google"
+      credential: "Y3TC45B2Z4W7",
+      image: "https://placehold.co/200x100/4285F4/ffffff?text=Google",
+      url: "https://coursera.org/verify/Y3TC45B2Z4W7"
     },
     {
       name: "Legacy JavaScript Algorithms and Data Structures",
       issuer: "freeCodeCamp",
       date: "January 2025",
-      credential: "FCC-JS-2025",
-      image: "https://placehold.co/200x100/0a0a23/ffffff?text=freeCodeCamp"
+      credential: "fcc590d739c-3056-4ed8-bf6f-0d4d2440668f",
+      image: "https://placehold.co/200x100/0a0a23/ffffff?text=freeCodeCamp",
+      url: "https://freecodecamp.org/certification/fcc590d739c-3056-4ed8-bf6f-0d4d2440668f/javascript-algorithms-and-data-structures"
     },
     {
       name: "Programming with C and C++",
-      issuer: "Coursera",
+      issuer: "Internshala",
       date: "December 2024",
-      credential: "COURSE-CPP-2024",
-      image: "https://placehold.co/200x100/2A73CC/ffffff?text=Coursera"
+      credential: "hv5g7ocoprn",
+      image: "https://placehold.co/200x100/2A73CC/ffffff?text=Internshala",
+      url: "https://trainings.internshala.com/verify_certificate?certificate_number=hv5g7ocoprn"
     }
   ];
 
@@ -67,7 +71,7 @@ export default function Certifications() {
                   </div>
                 </div>
                 <div className="mt-4">
-                  <a href="#" className="text-cyan-400 hover:text-cyan-300 text-sm font-medium flex items-center">
+                  <a href={cert.url} className="text-cyan-400 hover:text-cyan-300 text-sm font-medium flex items-center">
                     View Certificate
                     <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>

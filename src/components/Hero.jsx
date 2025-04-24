@@ -12,7 +12,7 @@ export default function Hero() {
           </p>
           <div className="flex gap-4">
             <a
-              href="#contact"
+              href="#about"
               className="px-6 py-3 bg-cyan-600 hover:bg-cyan-700 text-white font-medium rounded-md transition-colors duration-300"
             >
               Contact Me

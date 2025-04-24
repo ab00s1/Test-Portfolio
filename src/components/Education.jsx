@@ -13,8 +13,8 @@ export default function Education() {
       institution: "Harcourt Butler Technical University",
       period: "November 2020 - May 2023",
       location: "India",
-      description: "Completed foundational education in engineering principles, problem-solving methodologies, and technical disciplines.",
-      grade: "Completed"
+      description: "",
+      grade: ""
     }
   ];
 
