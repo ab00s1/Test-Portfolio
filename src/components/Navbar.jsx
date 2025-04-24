@@ -1,3 +1,6 @@
+import { useState } from "react";
+
+
 export default function Navbar() {
   const navItems = [
     { name: "Home", href: "#hero" },
