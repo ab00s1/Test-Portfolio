@@ -1,12 +1,27 @@
 @import 'tailwindcss';
+@import "tailwindcss/preflight";
+@tailwind utilities;
 
 html, body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+  min-height: 100%;
+  background-color: rgb(29, 0, 31);
 }
 
-body {
-  background-color: rgb(29, 0, 31);
+@layer utilities {
+  .animate-fadeIn {
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 }
